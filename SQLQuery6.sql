@@ -1,0 +1,1 @@
+select SUM(PRICE) FROM Product, Supplier WHERE Product.SupplierID = SUPPLIER.SupplierID AND SUPPLIER.Country = 'USA'

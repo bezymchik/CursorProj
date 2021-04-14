@@ -1,0 +1,1 @@
+SELECT * from Product where pRICE = (SELECT MIN(PRICE) FROM Product)

@@ -1,0 +1,1 @@
+SELECT DISTINCT Supplier.SupplierID, SupplierName, City, Country FROM Supplier, Product WHERE Product.SupplierID = Supplier.SupplierID AND Product.CategoryID = 2
